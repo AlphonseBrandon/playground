@@ -49,3 +49,7 @@ number_of_countries = len(places)
 print(
     f'\nThe number of countries in the list is:\n{number_of_countries}'
 )
+
+print('\nNames of places in the list:')
+for place in places:
+    print(place.title())
