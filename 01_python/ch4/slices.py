@@ -6,8 +6,9 @@ Subject: slicing and list copying
 
 foods = ['beans', 'yam', 'rice', 'meat', 'banana']
 
-message = 'The first three elements in the list are:\n'
+message = 'The first three elements in the list are:'
 
 print(message)
-foods[:3]
+for food in foods[:3]:
+    print(food)
 
