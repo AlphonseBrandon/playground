@@ -12,3 +12,8 @@ print(dimensions[1])
 # turple with one element
 dimensions_one = (20,)
 print(dimensions_one[0])
+
+# looping through all values in a turple
+
+for dimension in dimensions:
+    print(dimension)
