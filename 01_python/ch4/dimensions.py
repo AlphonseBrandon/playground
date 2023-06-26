@@ -15,5 +15,12 @@ print(dimensions_one[0])
 
 # looping through all values in a turple
 
+print('Original dimensions:')
+for dimension in dimensions:
+    print(dimension)
+
+print('Modified dimensions:')
+dimensions = (400, 100)
+
 for dimension in dimensions:
     print(dimension)
