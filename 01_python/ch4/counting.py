@@ -6,7 +6,7 @@ Subject: List Comprehension
 
 numbers = [number for number in range(1, 21,2)]
 
-print(f'Odd numbers from 1 to 20:\n{numbers}')
+print(f'Odd numbers from 1 to 20:\n{numbers}') 
 
 threes = []
 for three in list(range(3,31)):
