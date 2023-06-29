@@ -22,4 +22,9 @@ favourite_number = {
     'tom': 5,
 }
 
-print(f'Alphonse favourite number is {favourite_number["alphonse"]}')
+print('Names and favourite numbers')
+for key, value in favourite_number.items():
+    print(f'{key.title()} : {value}')
+
+# print(f'Alphonse favourite number is {favourite_number["alphonse"]}')
+
