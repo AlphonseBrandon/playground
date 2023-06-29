@@ -24,7 +24,19 @@ favourite_number = {
 
 print('Names and favourite numbers')
 for key, value in favourite_number.items():
-    print(f'{key.title()} : {value}')
+    print(f'{key.title()} : {value}\n')
 
 # print(f'Alphonse favourite number is {favourite_number["alphonse"]}')
 
+message = 'Name of everyone with favorite number'
+
+print(message)
+
+friends = ['alphonse', 'brandon']
+for name in favourite_number.keys():
+    if name in friends:
+        print(f'Hey {name.title()} I see your favourite number is {favourite_number[name]}')
+    else:
+        print(name.title())
+
+   
