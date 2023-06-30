@@ -39,4 +39,6 @@ for name in favourite_number.keys():
     else:
         print(name.title())
 
+if 'colins' not in favourite_number.keys():
+    print('Colins please take the poll')
    
