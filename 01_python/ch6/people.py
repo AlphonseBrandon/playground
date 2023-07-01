@@ -27,8 +27,15 @@ person_three = {
 
 people = [person_one, person_two, person_three]
 
+
 for person in people:
     print("User Info\n")
     for key, value in person.items():
         print(f'{key} : {value}\n')
-        
+
+
+print('Location for each person')
+
+for people in people:
+    print(f"{people['first_name'].title()} is {people['age']} years old and lives in {people['city'].title()}\n")
+       
