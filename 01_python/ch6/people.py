@@ -1,7 +1,7 @@
 '''
 Author: Alphonse Brandon
 Date Created: 01-07-2023
-Subject: Working with dictionaries
+Subject: Ch6 - Working with dictionaries
 '''
 
 person_one = {
