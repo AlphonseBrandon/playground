@@ -1,7 +1,7 @@
 '''
 Author: Alphonse Brandon
 Date Created: 02-07-2023
-Subject: Ch6 - Working with dictionaries
+Subject: Ch6 - Working user inputs
 '''
 
 # Rental car
