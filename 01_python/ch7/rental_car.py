@@ -5,7 +5,9 @@ Subject: Ch6 - Working with dictionaries
 '''
 
 # Rental car
+
 prompt = 'What kind of rental car will you like?'
 car = input(prompt)
 message = f'Let me see if I can find you a {car}'
 print(message)
+
