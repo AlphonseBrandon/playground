@@ -12,3 +12,10 @@ display_message()
 def favourite_book(book):
     print(f'One of my favourite books is {book}')
 favourite_book('The Power of your Mind')
+
+def make_shirt(size, text):
+    print(f'The size of the shirt is {size} and you want the following message printed on it: \n"{text}"')
+
+message = 'Education is a powerful weapon'
+
+make_shirt(size=12, text=message)
