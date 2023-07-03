@@ -28,3 +28,14 @@ def city_country(city='Buea', country='Cameroon'):
 country_city = city_country()
 
 print(country_city)
+
+
+print('\nAlbum dictionary')
+
+def make_album(name='Loveworld Singers', title='Praise Night 14'):
+    album = {name:title}
+    return album
+
+album = make_album()
+print(album)
+print(f'The data structure is of type: {type(album)}')
