@@ -20,3 +20,11 @@ def make_shirt(text='I love Python',size='large'):
 message = 'Education is a powerful weapon'
 
 make_shirt()
+
+print('\n Country city format')
+def city_country(city='Buea', country='Cameroon'):
+    return f"{city.title()}, {country.title()}"
+
+country_city = city_country()
+
+print(country_city)
