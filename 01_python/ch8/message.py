@@ -77,3 +77,21 @@ def show_messages(messages: list) -> None:
     for message in messages:
         print(message)
 show_messages(message_list)
+
+sent_messages = []
+def send_messages(messages: list, sent_messages: list) -> None:
+    for message in messages:
+        print(f'Sending: {message}')
+        sent_messages.append(message)
+    for sent_message in sent_messages:
+        print(f'Sent: {sent_message}')
+send_messages(message_list, sent_messages)
+
+print('List of messages:\n\t')
+print(message_list)
+
+print('List of sent messages')
+print(sent_messages)
+
+
+
