@@ -14,10 +14,14 @@ class Restaurant:
     def open_restaurant(self):
         print(f'{self.restaurant_name} is open!')
 
-restaurant = Restaurant('TFC', 'Grilled Chicken')
+restaurant1 = Restaurant('TFC', 'Grilled Chicken')
+restaurant2 = Restaurant('48 Spices', 'Grilled Chicken and Plantains')
+restaurant3 = Restaurant('J and J', 'Eru and Garri')
 
-print(restaurant.restaurant_name)
-print(restaurant.cuisine_type)
 
-restaurant.describe_restaurant()
-restaurant.open_restaurant()
+restaurant1.describe_restaurant()
+restaurant1.open_restaurant()
+restaurant2.describe_restaurant()
+restaurant2.open_restaurant()
+restaurant3.describe_restaurant()
+restaurant3.open_restaurant()
