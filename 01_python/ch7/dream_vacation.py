@@ -1,7 +1,7 @@
 '''
 Author: Alphonse Brandon
 Date Created: 03-07-2023
-Subject: Ch6 - Working with while loops
+Subject: Ch6 - Working with while loops and break statements 
 '''
 
 

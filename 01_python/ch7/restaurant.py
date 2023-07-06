@@ -1,7 +1,7 @@
 '''
 Author: Alphonse Brandon
 Date Created: 02-07-2023
-Subject: Ch6 - Working user inputs
+Subject: Ch6 - Working user inputs and while loops
 '''
 # Restaurant seating
 
