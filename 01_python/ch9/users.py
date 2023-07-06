@@ -14,7 +14,7 @@ class Users:
         '''Display user information'''
 
         print("User Information:\n")
-        print(f'\tFirst Name: {self.first_name}\n\tLast name: {self.last_name}\n\tLocation: {self.last_name}')
+        print(f'\tFirst Name: {self.first_name}\n\tLast name: {self.last_name}\n\tLocation: {self.location}')
     
     def greet_user(self) -> None:
         '''Display personalize greeting to user'''
