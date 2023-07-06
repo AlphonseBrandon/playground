@@ -13,13 +13,13 @@ class Users:
     def describe_user(self) -> None:
         '''Display user information'''
 
-        print("User Information:")
+        print("User Information:\n")
         print(f'\tFirst Name: {self.first_name}\n\tLast name: {self.last_name}\n\tLocation: {self.last_name}')
     
     def greet_user(self) -> None:
         '''Display personalize greeting to user'''
 
-        print(f'Hello {self.first_name} how is the weather in {self.location} today')
+        print(f'\nHello {self.first_name} how is the weather in {self.location} today')
 user1 = Users('Alphonse', 'Brandon', 'Buea')
 
 user1.describe_user()
