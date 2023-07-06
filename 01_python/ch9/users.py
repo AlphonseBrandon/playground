@@ -13,7 +13,7 @@ class Users:
     def describe_user(self) -> None:
         '''Display user information'''
 
-        print("Users Information")
+        print("User Information:")
         print(f'\tFirst Name: {self.first_name}\n\tLast name: {self.last_name}\n\tLocation: {self.last_name}')
     
     def greet_user(self) -> None:
