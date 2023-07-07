@@ -1,7 +1,7 @@
 '''
 Author: Alphonse Brandon
 Date Created: 06-07-2023
-Subject: Ch9 - Working with clases
+Subject: Ch9 - Working with clases and intances of classes
 '''
 class Restaurant:
     def __init__(self, restaurant_name: str, cuisine_type: str) -> None:
