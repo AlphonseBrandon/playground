@@ -1,7 +1,7 @@
 '''
 Author: Alphonse Brandon
 Date Created: 04-07-2023
-Subject: Ch6 - Working functions
+Subject: Ch6 - Working python functions
 '''
 
 def display_message():
