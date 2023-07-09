@@ -10,3 +10,5 @@ def city_country(city: str, country: str) -> str:
     return pair
 
 city_country('Buea', 'Cameroon')
+city_country('madrid', 'spain')
+city_country('texas', 'united states of america')
