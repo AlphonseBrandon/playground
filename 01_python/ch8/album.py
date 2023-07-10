@@ -18,5 +18,16 @@ def make_album(name: str, title: str, songs=None) -> None:
             'Album' : title,
         }
     print(album_info)
-make_album('Loveworld singers', 'Praise night 15', 20)
+
+print("Enter an album's infomation\nEnter 'q' to quit")
+
+while True:
+    name = input("Enter the artist name\n")
+    if name == 'q':
+        break
+    title = input("Enter the title of the Album\n")
+    if title == 'q':
+        break
+    print("Album's dictionary:\n")
+    make_album(name=name, title=title)
 
