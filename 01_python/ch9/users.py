@@ -9,6 +9,7 @@ class Users:
         self.first_name = first_name
         self.last_name = last_name
         self.location = location
+        self.login_attempt = 0
 
     def describe_user(self) -> None:
         '''Display user information'''
@@ -20,8 +21,23 @@ class Users:
         '''Display personalize greeting to user'''
 
         print(f'\nHello {self.first_name} how is the weather in {self.location} today')
+
+    def increment_login_attempt(self) -> None:
+        """Increments the login attempt by 1"""
+        self.login_attempt += 1
+
+    def reset_login_attempts(self) -> None:
+        """Reset the login attempt to 0"""
+        self.login_attempt = 0
+
 user1 = Users('Alphonse', 'Brandon', 'Buea')
 
 user1.describe_user()
 user1.greet_user()
-    
+
+user1.increment_login_attempt()
+user1.increment_login_attempt()
+print(f'Login attempts: {user1.login_attempt}')
+
+user1.reset_login_attempts()
+print(f'Login attempts Reset to: {user1.login_attempt}')
