@@ -8,4 +8,5 @@ filename = 'learning_python.txt'
 
 with open(filename) as f:
     content = f.read()
-    print(content)
+    r_content = content.replace('python', 'R')
+    print(r_content)
