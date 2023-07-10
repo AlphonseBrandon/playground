@@ -4,11 +4,11 @@ Date Created: 10-07-2023
 Subject: Ch6 - Working python functions
 '''
 
-import send_message as sm
+from send_message import send_messages, sent_messages
 
-# messages = ['Hello','How are you', 'It is the month of Joy']
+messages = ['Hello','How are you', 'It is the month of Joy']
 
-sm.send_messages(drafts=sm.drafts[:])
+send_messages(messages[:])
 
-print(f'List of draft messages:\n{sm.drafts}')
-print(f'List of sent messages:\n{sm.sent_messages}')
+print(f'List of draft messages:\n{messages}')
+print(f'List of sent messages:\n{sent_messages}')
